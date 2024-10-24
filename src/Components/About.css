@@ -1,0 +1,59 @@
+.about-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+  background-color: black;
+}
+
+.about-container > div {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(245, 244, 244, 0.5);
+  padding: 20px;
+  width: 300px;
+  margin: 20px;
+  transition: transform 0.3s;
+}
+
+.about-container > div:hover {
+  transform: translateY(15px);
+}
+
+h1, h2 {
+  color: orangered;
+  font-family: 'Arial', sans-serif;
+}
+
+p, ul, li {
+  font-family: 'Arial', sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #333;
+}
+
+a {
+  color: orangered;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+.about-container ul li {
+  list-style: disc;
+  color: orangered;
+}
+
+.arrow {
+  margin: 10px;
+  text-align: right;
+  padding-right: 100px;
+  padding-bottom: 100px;
+}

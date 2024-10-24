@@ -1,0 +1,35 @@
+.resume-container {
+    padding: 50px;
+    background-color: white;
+    box-shadow: 0 4px 12px rgba(255, 69, 0, 0.5);
+    border-radius: 10px;
+    margin: 50px auto;
+    max-width: 800px;  /* Limit width for better readability */
+    text-align: center;
+  }
+  
+  .resume-container h1 {
+    color: orangered; /* Orange-red heading */
+    margin-bottom: 20px;
+  }
+  
+  .resume-container embed {
+    border: 2px solid orangered; /* Border around the PDF viewer */
+    border-radius: 5px; /* Rounded corners */
+  }
+  
+  .download-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: orangered; /* Button color */
+    color: white; /* Text color */
+    border: none;
+    border-radius: 5px; /* Rounded corners */
+    text-decoration: none; /* No underline */
+    font-weight: bold;
+  }
+  
+  .download-button:hover {
+    background-color: #ff6347; /* Lighter shade on hover */
+  }
